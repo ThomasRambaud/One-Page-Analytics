@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <!--[if IE]><![endif]-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>One Page Analytics</title>
+  <meta name="description" content="">
+  <meta name="author" content="Thomas Rambaud">
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <link rel="author" href="https://plus.google.com/112642905148482454850?rel=author" />
+</head>
+<body>
+    <section style="height:800px">
+        Accueil
+    </section>
+
+    <section style="height:800px">
+        Skills
+    </section style="height:800px">
+
+    <section style="height:800px">
+        Portfolio
+    </section>
+
+    <section style="height:800px">
+        Contact
+    </section>
+
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="one-page-analytics-1.0.js"></script>
+    <script>
+    OPA.sections = [
+        {
+            selector: 'section:eq(0)',
+            name: 'home'
+        },
+        {
+            selector: 'section:eq(1)',
+            name: 'skills'
+        },
+        {
+            selector: 'section:eq(2)',
+            name: 'portfolio'
+        },
+        {
+            selector: 'section:eq(3)',
+            name: 'contact'
+        }
+    ];
+    OPA.init();
+    </script>
+</body>
+</html>
