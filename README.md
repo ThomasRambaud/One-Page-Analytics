@@ -11,19 +11,19 @@ HOW TO USE:
 2 : define OPA.sections then call OPA.init();
 
     <script>
-    		OPA.sections = [
-			    {
-				    selector: 'section:eq(1)',      // jQuery selector of this element, which, when viewed, will trigger a pageview
-				    name: 'about-us' // name of the page for Google Analytics
-			    },
-			    {
-				    selector: 'section:eq(2)',
-				    name: 'portfolio'
-			    },
-			    {
-				    selector: 'footer',
-				    name: 'contact'
-			    }
-		    ];
-		    OPA.init();
+        OPA.sections = [
+            {
+                selector: 'section:eq(1)', // jQuery selector of this element, which, when viewed, will trigger a pageview
+                name: 'about-us' // name of the page for Google Analytics
+            },
+            {
+                selector: 'section:eq(2)',
+                name: 'portfolio'
+            },
+            {
+                selector: 'footer',
+                name: 'contact'
+            }
+        ];
+        OPA.init();
     </script>
