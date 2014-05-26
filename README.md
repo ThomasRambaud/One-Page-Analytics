@@ -1,7 +1,11 @@
 One-Page-Analytics
 ==================
 
-If you have a one page site, you'll be able, with this little javascript code, to track which sections of your site your user has gone to. Fully compliant with Google Analytics, you'll be able to see these sections as "pageviews" in analytics, and then see, for example, how long they stayed on this or that section.
+If you have a one page site, this plugin will allow you to track which sections of your site your user has gone to. Fully compliant with Google Analytics, you'll be able to see these sections as "pageviews" in analytics, and then view, for example :
+ * how long they stayed on this or that section.
+ * on which section they left
+ * the order of the sections viewed
+ * ...
 
 HOW TO USE: 
 1 : include the javascript code on your page, after jQuery
